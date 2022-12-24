@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    background-image:url(/premier\ proje\ 11/img/nat-8.jpg) ; 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 400vh;
+    position: static;
+}
+
+.header{
+    position: relative;
+    background-image:linear-gradient(rgba(47, 49, 47, 0.8),rgba(47, 49, 47, 0.8)),url(/premier\ proje\ 11/img/nat-6.jpg) ;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    position: static;
+}
+
+.DivText{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.DivText h1{
+    font-size: 5rem;
+    letter-spacing: 10px;
+
+}
+.DivText h1:hover{
+    color: rgb(255, 0, 0);
+}
+.DivText pre{
+    font-size: 1rem;
+}
+.DivText pre:hover{
+    color: rgb(234, 255, 0);
+}
+.DivMenu{
+    position: absolute;
+    background-color: antiquewhite;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 30px;
+}
+
+.Section1{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: #ffffff;
+    position: absolute; 
+    height: 250vh;
+    padding: 20vh;
+    left: 30vh;
+    top: 42rem;
+    
+}
+.Section1Text h3{
+    text-align: center;
+    position: relative;
+    top: -7rem;
+   
+   
+    
+
+}
+.Section1Text h1{
+    text-align: center;
+    position: relative;
+    font-size: 5rem;
+    top: -2rem;
+   
+  
+}
+.Section1Text p{
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    top: -2rem;
+   
+}
+
+.Section1Img img{
+   height: 50vh;
+   width: 110vh;   
+   top: 7rem;
+}
+.Section1Img img:hover{
+    border: 15px solid rgb(255, 0, 0);
+    box-sizing: border-box;
+}
+.Section1Text2 p{
+    position: relative;
+    font-size: 26px;
+    top: rem;
+    line-height: 7vh;
+}
+.table1{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    margin-left: 0;
+    height: 40rem;
+    width: 50rem;
+    background-color: rgb(192, 188, 188);
+   
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  input[type=text1] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
